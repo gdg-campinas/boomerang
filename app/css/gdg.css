@@ -121,6 +121,9 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar) md-icon, md-toolbar.m
 md-toolbar .md-toolbar-tools h2 {
     font-weight: 700;
 }
+h2.md-toolbar-tools {
+    background-color: #2477ad;
+}
 md-card.md-default-theme,
 md-grid-list md-grid-tile {
     border-radius: 3px;
