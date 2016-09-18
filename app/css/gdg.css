@@ -13,6 +13,9 @@ body {
 md-tabs .md-header {
     border-bottom: 1px solid #D8D8D8;
 }
+.md-tab {
+    text-transform: none;
+}
 .fill {
     width: 100%;
     height: 100%;
@@ -42,13 +45,16 @@ md-tabs .md-header {
 .grayscale {
     -webkit-filter: grayscale(100%);
 }
+.navTabs {
+    background-color: #2477ad;
+}
 .navTabs md-tab-item {
     padding: 0;
 }
 .navTabLink {
     padding: 12px 24px;
     text-decoration: none;
-    color: inherit;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -101,6 +107,16 @@ md-grid-tile {
 md-toolbar.md-default-theme:not(.navBar) {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+}
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+    background-image: url("/app/images/nuvens.jpg");
+    background-size: 540px;
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 108px;
+}
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar) md-icon, md-toolbar.md-hue-2:not(.md-menu-toolbar) md-icon {
+    color: #2477ad;
 }
 md-toolbar .md-toolbar-tools h2 {
     font-weight: 700;
